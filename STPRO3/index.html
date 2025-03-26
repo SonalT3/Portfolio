@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Paradigm Shift by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let backButton = document.createElement("a");
+            backButton.href = "index.html"; // Change this to your desired link
+            backButton.style.position = "fixed";
+            backButton.style.top = "20px";
+            backButton.style.left = "20px";
+            backButton.style.padding = "10px 15px";
+            backButton.style.background = "rgba(0, 0, 0, 0.5)";
+            backButton.style.color = "white";
+            backButton.style.fontSize = "16px";
+            backButton.style.borderRadius = "8px";
+            backButton.style.textDecoration = "none";
+            backButton.style.backdropFilter = "blur(5px)";
+            backButton.style.transition = "background 0.3s ease-in-out";
+            backButton.style.zIndex = "1000"; // Ensure it appears above other elements
+            backButton.style.cursor = "pointer";
+            backButton.innerHTML = "&#8592; Back";
+            
+            backButton.addEventListener("mouseover", function() {
+                backButton.style.background = "rgba(0, 0, 0, 0.7)";
+            });
+            
+            backButton.addEventListener("mouseout", function() {
+                backButton.style.background = "rgba(0, 0, 0, 0.5)";
+            });
+            
+            document.body.appendChild(backButton);
+        });
+    </script>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1> Project Three: Workout Paradise</h1>
+							<p> A Workout and Meal tracking Website</p>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="Fitness Main.jpg" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>Project Overview</h2>
+						</header>
+						<div class="content">
+							<p><strong>Brief Introduction</strong></p> 
+							<p><strong>Objective: </strong>To build an all-in-one fitness platform with workout plans, meal tracking, and live training sessions.</p>
+								<p><strong>Target Audience:</strong> Fitness enthusiasts, beginners, and personal trainers.	</p>
+								<p><strong>Features:</strong> Homepage, Workout Library, Trainer Profiles, Meal Tracker, Live Classes, and Community Forum.	</p>
+								
+								<p><strong>Problem Statement</strong></p>
+								Research, surveys, and feedbacks to reavel Workout knowledge and expertise.
+								
+								<p><strong>*</strong> Many fitness enthusiasts struggle to find a centralized platform that combines workout tracking, meal planning, live classes, and community engagement. </p>
+								<p><strong>*</strong>  Existing solutions are often fragmented, leading to a disjointed experience. </p>
+								<p><strong>*</strong>  The challenge is to create a comprehensive website where users can track their workouts, meals, and progress, access live trainer-led classes, and interact with a motivating community, all in one place.</p>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Research & Insights</h2>
+						</header>
+						<div class="content">
+							<p><strong>User Research and Pain Points</strong></p>
+								<p><strong>Competitor Research:</strong> Examined MyFitnessPal, Nike Training Club, and Fitbit to understand fitness app trends.</p>
+								<p><strong>User Interviews: </strong>Conducted informal surveys with gym-goers to identify key motivators and pain points.</p>
+									<p><strong>Key Findings: </strong>Users want easy tracking, personalized recommendations, and a supportive community.</p>
+							<ul class="feature-icons">
+								<li class="icon solid fa-laptop">Difficulty Tracking</li>
+								<li class="icon solid fa-bolt">Limited Personalization</li>
+								<li class="icon solid fa-signal">Low Engagement</li>
+								<li class="icon solid fa-cog">Complex Navigation</li>
+								<li class="icon solid fa-map-marker-alt">Time Constraints</li>
+								<li class="icon solid fa-code">Unclear Progress</li>
+							</ul>
+							<p><strong>Competitor Analysis</strong></p>
+
+							<p> <strong>1. MyFitnessPal </strong></p>
+								•	✅ Extensive food database with barcode scanning.
+								•	✅ Tracks calories and macros in detail.
+								•	❌ Free version has limited features (premium needed for deeper insights).
+							
+							<p> <strong>2. Nike Training Club</strong> </p>
+								•	✅ Professional, trainer-led workouts for all levels.
+								•	✅ Free access to high-quality training programs.
+								•	❌ No meal tracking feature, only workout-based.
+							
+							<p> <strong>3. Fitbit App </strong></p>
+								•	✅ Tracks steps, workouts, heart rate, and meals.
+								•	✅ Syncs well with Fitbit wearables.
+								•	❌ Requires Fitbit device for full experience.
+							
+							<p> <strong>4. Strava </strong></p>
+								•	✅ Strong social community and leaderboard features.
+								•	✅ Great for tracking running and cycling activities.
+								•	❌ No meal tracking or general workout library.
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Wireframes & Design Process		</h2>
+						</header>
+						<div class="content">
+							<p><strong>Design Process: Wireframing, User Flow, High-Fidelity UI</strong> </p>
+							<p>The design process of <strong>WORKOUT PARADISE </strong> followed a structured UX methodology to ensure an intuitive, user-friendly, and efficient commuting solution.</p>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Wireframing</h3>
+										<p>Structured primary navigation for intuitive browsing. Structured primary navigation for intuitive browsing. </p>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="WorkoutP5.png"><img src="WorkoutP5.png" alt="" /></a>
+											<a href="WorkoutP6.png"><img src="WorkoutP6.png" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>User Flow</h3>
+									<p>Created a flowchart to ensure seamless transitions between tracking, classes, and community.</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="WorkoutP1.png" class="landscape"><img src="WorkoutP1.png" alt="" /></a>
+										<a href="WorkoutP2.png" class="landscape"><img src="WorkoutP2.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>High-Fidelity UI</h3>
+									<p>Designed an engaging interface with strong contrast, motivational colors, and structured content.
+									</p>
+								</header>
+								<div class="content">
+									<div class="gallery">
+										<a href="WorkoutP4.png"><img src="WorkoutP4.png" alt="" /></a>
+										<a href="WorkoutP8.png"><img src="WorkoutP8.png" alt="" /></a>
+										<a href="WorkoutP3.png" class="landscape"><img src="WorkoutP3.png" alt="" /></a>
+										<a href="WorkoutP7.png" class="landscape"><img src="WorkoutP7.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+							<!-- Section -->
+							<section>
+								<header>
+									<h3>Design Logic and Key Takeaway</h3>
+								</header>
+								<div class="content">
+									<p><Strong>Key Documents</Strong>
+
+										<P> <strong> Engagement-Oriented UI: </strong>Integrated leaderboards and badges to motivate users.</P>
+										<P><strong>Personalized Experience: </strong>Users can track progress with a dashboard.</P>
+										<P><strong>Live Interaction: </strong>Designed a chat-enabled live class section.</P>
+									</div>
+								</div>
+							</section>
+
+													<!-- Section -->
+													<section>
+														<header>
+															<h3>Figma & Dynamic Features
+															</h3>
+															<p>Used interactive components for meal and workout tracking.</p>
+															<p>Implemented variants for buttons and forms for smooth user interaction.</p>
+															<p>Created scrollable prototype sections for a realistic app experience.</p>
+														</header>
+														<div class="content">
+															<div class="gallery">
+																<p><strong>Figma Prototype Link:  https://www.figma.com/design/FM9PZXp8FYp2GDx3WvXkGr/Workout-Paradise?t=DuxgMMac2c8hNTtH-1</strong></p>
+															</div>
+														</div>
+													</section>
+					
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Want to know more?</h2>
+						</header>
+						<div class="content">
+							<p><strong>did you miss something?</strong>Take the necessary time to fully understand my work, as it requires careful attention. Spend some time going through the details to grasp everything thoroughly.</p>
+							<ul class="actions">
+								<li><a href="#" class="button primary large">Get Started</a></li>
+								<li><a href="#" class="button large">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+	
+				</div>
+			</div>
+		</section>
+
+</div>
+</section>
+
+	
+			<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+	
+		</body>
+	</html>
+			
